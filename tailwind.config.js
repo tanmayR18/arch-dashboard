@@ -12,7 +12,11 @@ module.exports = {
         "logo-bg": "#354D8D",
         "logo-border": "#ABBED3",
         "bg": "#F5F5F5",
-        "white": "#FFFFFF"
+        "white": "#FFFFFF",
+        "text1": "#344054",
+        "text2": "#101828",
+        "hr":"#E5E7EB",
+        "header-hover": "#0082CA"
     },
     extend: {},
   },

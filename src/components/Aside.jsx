@@ -17,9 +17,9 @@ const Aside = () => {
                 {
                     images.map( (img, index) => {
                         if (index <= 5) {
-                            return <a href="/" className="cursor-pointer hover:bg-aside-icon-hover p-2 rounded-lg hover:text-aside-icon" key={index}>
+                            return <button className="cursor-pointer hover:bg-aside-icon-hover p-2 rounded-lg hover:text-aside-icon" key={index}>
                                         <img className=" w-5 " src={img} alt={img} />
-                                    </a>
+                                    </button>
                         }
                         return null;
                     })
@@ -32,9 +32,9 @@ const Aside = () => {
             {
                 images.map( (img, index) => {
                     if (index > 5) {
-                        return <a href="/" className="cursor-pointer hover:bg-aside-icon-hover p-2 rounded-lg hover:text-aside-icon" key={index}>
+                        return <button className="cursor-pointer hover:bg-aside-icon-hover p-2 rounded-lg hover:text-aside-icon" key={index}>
                                     <img className=" w-5"  src={img} alt={img} />
-                                </a>
+                                </button>
                     }
                     return null;
                 })
