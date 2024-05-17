@@ -4,7 +4,7 @@ const images = importAll(require.context('../assets/aside', false, /\.svg$/));
 
 const Aside = () => {
   return (
-    <aside className=" h-screen bg-aside-bg p-2 flex flex-col justify-between items-center">
+    <aside className=" h-screen bg-aside-bg p-3 flex flex-col justify-between items-center fixed">
         {/* top icons */}
         <div className=" flex flex-col gap-6 items-center">
             <div className=" w-11 h-11 text-logo-text bg-logo-bg border-logo-border font-bold text-[22px] border-4 rounded-full cursor-pointer flex justify-center">
