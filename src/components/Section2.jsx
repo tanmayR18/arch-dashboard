@@ -62,12 +62,12 @@ const Section2 = () => {
                     </div>
 
                     <div className=' flex flex-col gap-5 p-8'>
-                        <div className=' grid grid-cols-3'>
+                        <div className=' grid grid-cols-3 gap-4'>
                             <div>
                                 <div className=' text-bg1 text-sm font-semibold'>
                                     Total User
                                 </div>
-                                <div className=' flex items-start gap-2'>
+                                <div className=' flex items-start gap-1'>
                                     <p className=' text-text2 text-3xl font-bold'>4,862</p>
                                     <p className=' text-text9 flex items-center gap-1 text-sm'><FaArrowTrendUp /> <p >9.2%</p></p>
                                 </div>
@@ -76,7 +76,7 @@ const Section2 = () => {
                                 <div className=' text-bg1 text-sm font-semibold'>
                                     Sales
                                 </div>
-                                <div className=' flex items-start gap-2'>
+                                <div className=' flex items-start gap-1'>
                                     <p className=' text-text2 text-3xl font-bold'>2,671</p>
                                     <p className=' text-text9 flex items-center gap-1 text-sm'><FaArrowTrendUp /> <p >6.6%</p></p>
                                 </div>
@@ -85,7 +85,7 @@ const Section2 = () => {
                                 <div className=' text-bg1 text-sm font-semibold'>
                                     Conversion Rate
                                 </div>
-                                <div className=' flex items-start gap-2'>
+                                <div className=' flex items-start gap-1'>
                                     <p className=' text-text2 text-3xl font-bold'>82%</p>
                                     <p className=' text-text9 flex items-center gap-1 text-sm'><FaArrowTrendUp /> <p >8.1%</p></p>
                                 </div>

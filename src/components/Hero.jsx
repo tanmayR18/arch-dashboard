@@ -27,11 +27,11 @@ const Hero = () => {
                     </div>
                     
                     <div className='bg-logo-border/20 flex  gap-5 p-1 text-text5 font-semibold items-center rounded-lg' >
-                        <div className=' p-1 px-2 bg-white rounded-lg'>Market</div>
-                        <div>Category</div>
-                        <div>Products</div>
-                        <div>Cross Selling</div>
-                        <div>Geography</div>
+                        <div className=' p-1 px-2 bg-white rounded-lg cursor-pointer'>Market</div>
+                        <div className=' cursor-pointer'>Category</div>
+                        <div className=' cursor-pointer'>Products</div>
+                        <div className=' cursor-pointer'>Cross Selling</div>
+                        <div className=' cursor-pointer'>Geography</div>
                     </div>
 
                     <div>
