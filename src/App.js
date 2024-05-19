@@ -1,6 +1,7 @@
 import Aside from "./components/Aside";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Section2 from "./components/Section2";
 
 
 
@@ -15,9 +16,7 @@ function App() {
                 <Hero />
            </div>   
 
-           <div>
-
-           </div>
+           <Section2/>
         </main>
     </div>
   );
