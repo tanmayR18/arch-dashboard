@@ -7,7 +7,7 @@ import commercial from "../assets/hero/Commercial.png"
 
 const Hero = () => {
   return (
-    <div className=' flex  justify-evenly p-4 gap-2'>
+    <div className=' flex  justify-between p-4 gap-2'>
         {/* Left */}
         <div className='border border-text5/30 rounded-xl flex flex-col justify-between'>
             <div className=' flex flex-col gap-3  p-4 '>
@@ -21,8 +21,8 @@ const Hero = () => {
 
                         <div className=' flex cursor-pointer font-semibold text-text4 items-center border border-text3 border-opacity-30 rounded-lg'>
                             <div className=' p-1 border-r border-text3 border-opacity-30 bg-logo-border/20'>12 months</div>
-                            <div className='p-1 border-r border-text3 border-opacity-30'>30 days</div>
-                            <div className='p-1'>7 days</div>
+                            <div className='p-1 border-r border-text3 border-opacity-30 hover:bg-logo-border/20'>30 days</div>
+                            <div className='p-1 hover:bg-logo-border/20'>7 days</div>
                         </div>
                     </div>
                     
@@ -55,7 +55,7 @@ const Hero = () => {
 
         {/* Right */}
         <div className=' border border-text5/30 p-4 rounded-xl'>
-            <div className='text-text2 font-bold text-lg pb-10 border-b border-bg1/20 flex justify-between items-center'><p>Industry Opportunities</p> <SlOptionsVertical color='gray'/></div>
+            <div className='text-text2 font-bold text-lg pb-10 border-b border-bg1/20 flex justify-between items-center'><p>Industry Opportunities</p> <SlOptionsVertical className=' cursor-pointer' color='gray'/></div>
             <div className=' py-5'>
                 <img src={meterChart} alt='meter chart' />
             </div>

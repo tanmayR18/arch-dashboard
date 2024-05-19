@@ -7,17 +7,19 @@ import Section2 from "./components/Section2";
 
 function App() {
   return (
-    <div className=" flex bg-bg h-screen">
-        <Aside/>
+    <div className=" bg-bg ">
+        <div className=" flex  max-w-[1440px]">
+            <Aside/>
 
-        <main className="   w-full p-4 pl-1 ml-20">
-           <div className=" rounded-3xl bg-white">
-                <Header/>
-                <Hero />
-           </div>   
+            <main className="   w-full p-4 pl-1 ml-20">
+            <div className=" rounded-3xl bg-white">
+                    <Header/>
+                    <Hero />
+                    <Section2/>
+            </div>   
 
-           <Section2/>
-        </main>
+            </main>
+        </div>
     </div>
   );
 }

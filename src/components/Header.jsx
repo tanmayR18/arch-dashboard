@@ -1,4 +1,4 @@
-import { CiSearch, CiExport } from "react-icons/ci";
+import { CiExport } from "react-icons/ci";
 import { BiCustomize } from "react-icons/bi";
 import { IoSearchSharp } from "react-icons/io5";
 import { useState } from "react";

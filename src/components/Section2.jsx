@@ -11,7 +11,7 @@ const Section2 = () => {
             <div className="border border-text5/30 p-4 rounded-xl">
                 <div className=' text-text2 flex justify-between items-center py-4 border-b border-text5/30'>
                     <p className=' text-lg font-bold'>Trending in your Industry</p>
-                    <SlOptionsVertical color='gray'/>
+                    <SlOptionsVertical className=' cursor-pointer' color='gray'/>
                 </div>
 
                 <div className=' flex gap-10 p-8'>
@@ -58,7 +58,7 @@ const Section2 = () => {
                 <div>
                     <div className=' text-text2 flex justify-between items-center py-4 border-b border-text5/30'>
                         <p className=' text-lg font-bold'>Ad Campaign Performance</p>
-                        <SlOptionsVertical color='gray'/>
+                        <SlOptionsVertical className=' cursor-pointer' color='gray'/>
                     </div>
 
                     <div className=' flex flex-col gap-5 p-8'>
